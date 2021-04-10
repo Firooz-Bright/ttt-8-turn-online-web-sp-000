@@ -16,8 +16,8 @@ def valid_move?(board, index)
   end
 end
 
- def position_taken?(board, answer)
-    board[answer] != " " 
+ def position_taken?(board, index)
+    board[index] != " " 
 end
 
 
